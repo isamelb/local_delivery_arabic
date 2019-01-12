@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+    <style media="screen">
+    .button {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+      .button1 {border-radius: 6px;}
+      body {
+border: 15px solid red;
+}
+h1 {
+border: 25px solid gold;
+}
+    </style>
+    <script type="text/javascript">
+      function order_food(){
+          var code = document.getElementById("mytext").value;
+        if (code == "1111") {
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfqV0bFWtmyVo-VytDPOpVyivdq9SzCibNnokMLfIEsZjAonw/viewform?usp=sf_link");
+      }else{}
+    }
+    </script>
+    <meta charset="utf-8">
+    <title>Local Delivery</title>
+  </head>
+  <body>
+      <div class="" align="center">
+        <marquee style='width: 50%; color: blue;'><b>اشتري من البقال المحلي</b></marquee>
+    <h1>نوصل لكم المواد الغداءية من بقالكم المحلي</h1>
+    <img src="milk2.jpeg" alt="milk">
+    <img src="bread.jpg" alt="bread">
+    <img src="eggs.jpg" alt="eggs">
+    <img src="marlboro.jpeg" alt="marlboro">
+    <br>
+    <input     size = 25 align="middle" type="text" id ="mytext" placeholder="أدخل اسم الخادم الخاص بك"/>
+    <button onclick ="order_food()" type="button "class="button button1"  name="button">اشتري من البقال المحلي</button>
+  </div>
+  </body>
+</html>
